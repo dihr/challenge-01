@@ -1,0 +1,120 @@
+.container {
+    /* Positioning */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    /* Box Model */
+    width: 46rem;
+    padding: 1rem;
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+
+    /* Typography */
+    
+    /* Visual Appearance */
+    background: var(--gray-500);
+}
+
+.container input[type="checkbox"] {
+    /* Positioning */
+    align-self: flex-start;
+
+    /* Box Model */
+    margin-top: 0.25rem;
+}
+
+.container + .container {
+    /* Box Model */
+    margin-top: 0.75rem;
+
+    /* Typography */
+    
+    /* Visual Appearance */
+}
+
+.container div {
+    /* Positioning */
+    display: flex;
+
+    /* Box Model */
+    gap: 0.5rem;
+    overflow-wrap: break-word;
+
+    /* Typography */
+
+    /* Visual Appearance */
+}
+
+.container p {
+    /* Typography */
+    color: var(--gray-100);
+}
+
+.container button {
+    /* Typography */
+    color: var(--gray-300);
+
+    /* Visual Appearance */
+    background: transparent;
+    border: none;
+}
+
+.completed {
+    /* Typography */
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.container button:hover {
+    /* Typography */
+    color: var(--danger);
+}
+
+.container input[type="checkbox"] {
+    /* Positioning */
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    flex-shrink: 0;
+
+    /* Box Model */
+    width: 1.0625rem;
+    height: 1.0625rem;
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+
+    /* Visual Appearance */
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.container input[type="checkbox"]:hover {
+    /* Visual Appearance */
+    border: 2px solid var(--blue-dark);
+}
+
+.container input[type="checkbox"]:checked {
+    /* Box Model */
+    border: none;
+
+    /* Visual Appearance */
+    background-color: var(--purple-dark);
+}
+
+.container input[type="checkbox"]:checked::before {
+    /* Typography */
+    content: '✓';
+    font-size: 1rem;
+
+    /* Positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container input[type="checkbox"]:checked:hover {
+    /* Visual Appearance */
+    background-color: var(--purple); 
+}

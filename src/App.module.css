@@ -1,0 +1,19 @@
+.input {
+    /* Positioning */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Box Model */
+    margin-top: -1.7rem;
+
+    /* Typography */
+
+    /* Visual Appearance */
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 87.5%;
+    }
+}

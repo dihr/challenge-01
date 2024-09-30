@@ -1,0 +1,14 @@
+.header {
+    /* Positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Box Model */
+    padding: 5.125rem 0;
+
+    /* Typography */
+
+    /* Visual Appearance */
+    background: var(--gray-700);
+}

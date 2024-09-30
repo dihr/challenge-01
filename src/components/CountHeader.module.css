@@ -1,0 +1,53 @@
+.header {
+    /* Positioning */
+    display: flex;
+    justify-content: space-between;
+
+    /* Box Model */
+    width: 46rem;
+
+    /* Typography */
+
+    /* Visual Appearance */
+}
+
+.header aside {
+    /* Positioning */
+    display: flex;
+    align-items: center;
+
+    /* Box Model */
+    gap: 0.5rem;
+    padding-top: 3.375rem;
+    padding-bottom: 1.5rem;
+
+    /* Typography */
+    font-size: 0.875rem;
+
+    /* Visual Appearance */
+}
+
+.header aside:first-child {
+    /* Visual Appearance */
+    color: var(--blue);
+}
+
+.header aside:last-child {
+    /* Visual Appearance */
+    color: var(--purple);
+}
+
+.header aside span {
+    /* Positioning */
+
+    /* Box Model */
+    padding: 2px 8px;
+    border-radius: 16px;
+
+    /* Typography */
+    font-size: 0.75rem;
+    color: var(--gray-200);
+
+    /* Visual Appearance */
+    background-color: var(--gray-400);
+}
